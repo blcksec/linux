@@ -1,8 +1,8 @@
 # Template file for 'linux-lqx'
 pkgname=linux-lqx
-_branch=5.7
-_sub=19
-_lqx=24
+_branch=5.8
+_sub=6
+_lqx=2
 version="${_branch}.${_sub}"
 revision=1
 wrksrc="linux-${_branch}"
@@ -12,8 +12,8 @@ license="GPL-2.0-only"
 homepage="https://www.kernel.org"
 distfiles="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${_branch}.tar.xz
  https://github.com/damentz/liquorix-package/archive/${_branch}-${_lqx}.tar.gz"
-checksum="de8163bb62f822d84f7a3983574ec460060bf013a78ff79cd7c979ff1ec1d7e0
- ed81c910a4b3cc494178be2e2337ee20c2063701f00b6d255a49251ebae6a1b5"
+checksum="e7f75186aa0642114af8f19d99559937300ca27acaf7451b36d4f9b0f85cf1f5
+ 6a55ebf99ba32ef0614728fe9ca87ed325e1e1f79bb7892d86e3f64d91e99d48"
 python_version=3
 patch_args="-Np1"
 
